@@ -7,7 +7,7 @@ This repository contains PyTorch implementation of our proposed dual-aligned kno
 ```bash
 # Create conda environment and install dependencies
 conda env create -f environment.yml
-conda activate reid
+conda activate dakd
 ```
 
 **Experimental Environment:**
@@ -58,4 +58,5 @@ chmod +x test.sh
 - `only_kd`: Only traditional knowledge distillation
 - `mlkd_no_instance`: Without instance-level distillation
 - `mlkd_no_class`: Without class-level distillation
+
 - `full_mlkd`: Complete framework
